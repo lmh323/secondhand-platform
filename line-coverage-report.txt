@@ -1,0 +1,20 @@
+Stage 5 line coverage report
+Coverage engine: Python standard-library trace module
+Tests run: 31
+Failures: 0
+Errors: 0
+
+file | covered / executable | coverage | missing lines
+src/cli/command_parser.py | 58 / 61 | 95.1% | 33, 42, 81
+src/cli/controller.py | 121 / 133 | 91.0% | 62, 89, 95, 108, 116, 124, 132, 141, 147, 153, 165, 175
+src/cli/result.py | 8 / 8 | 100.0% | -
+src/cli/view.py | 29 / 30 | 96.7% | 40
+src/main.py | 26 / 27 | 96.3% | 38
+src/model/criteria.py | 180 / 197 | 91.4% | 41, 54, 58, 113, 114, 155, 156, 165, 166, 167, 194, 195, 196, 197, 198, 205, 213
+src/model/errors.py | 5 / 5 | 100.0% | -
+src/model/persistence.py | 105 / 112 | 93.8% | 24, 93, 94, 95, 96, 100, 121
+src/model/pir.py | 163 / 172 | 94.8% | 15, 80, 204, 205, 206, 207, 253, 254, 255
+src/model/repository.py | 60 / 61 | 98.4% | 72
+src/model/time_utils.py | 26 / 28 | 92.9% | 21, 34
+
+TOTAL | 781 / 834 | 93.6%
